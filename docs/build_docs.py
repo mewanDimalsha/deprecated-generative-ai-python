@@ -22,6 +22,10 @@ $> pip install -U git+https://github.com/tensorflow/docs
 $> python build_docs.py
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import pathlib
 import re
 import textwrap

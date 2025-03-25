@@ -8,3 +8,5 @@
 __pycache__
 *.iml
 /dist/
+config.bat
+node_modules
